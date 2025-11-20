@@ -1,0 +1,161 @@
+.main-table-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.title-row {
+  margin-bottom: 16px;
+}
+
+.title-text {
+  margin: 0;
+  font-weight: 600;
+  color: #0b66b2;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.controls-card {
+  padding: 20px;
+}
+
+.search-input {
+  min-width: 320px;
+}
+
+.search-button {
+  background-color: #0b66b2;
+  color: #fff;
+}
+
+.filter-builder {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.filter-select {
+  min-width: 110px;
+}
+
+.filter-value {
+  min-width: 100px;
+}
+
+.add-filter {
+  min-width: 90px;
+}
+
+.chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.filter-chip {
+  background: #e3e6ea;
+}
+
+.ag-container {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 8px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.ag-container .ag-root {
+  font-family: inherit;
+  border-radius: 12px;
+}
+
+.ag-header {
+  background: #0b66b2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.ag-header .ag-header-cell-label,
+.ag-header-cell-text {
+  color: #fff !important;
+}
+
+.ag-cell {
+  border-color: #e5e7eb;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #999;
+}
+
+.ag-pinned-left-cols-container,
+.ag-pinned-right-cols-container {
+  background: #f3f4f6;
+}
+
+.sticky-brand {
+  font-weight: 700;
+  background: #f3f4f6;
+}
+
+.sticky-actions {
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.ag-theme-alpine .ag-header,
+.ag-theme-alpine .ag-header-cell {
+  background: #2b86d1 !important;
+  color: #fff !important;
+}
+
+.ag-theme-alpine .ag-header-cell-label,
+.ag-theme-alpine .ag-header-cell-text {
+  color: #fff !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  padding: 8px 12px;
+}
+
+.ag-cell-value {
+  padding: 8px 12px;
+}
+
+.ag-row.ag-row-hovered .ag-cell {
+  background: #eef6ff !important;
+  transition: background 0.12s ease;
+}
+
+.ag-pinned-left-cols-container .ag-row.ag-row-hovered .ag-cell,
+.ag-pinned-right-cols-container .ag-row.ag-row-hovered .ag-cell {
+  background: #eef6ff !important;
+}
+
+.pagination-row {
+  margin-top: 12px;
+  color: #666;
+}

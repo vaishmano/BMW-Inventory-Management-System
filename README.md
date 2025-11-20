@@ -87,6 +87,9 @@ npm run dev
 ### 7. Open the app
 Go to [http://localhost:5173](http://localhost:5173) in your browser.
 
+<img width="1897" height="962" alt="1" src="https://github.com/user-attachments/assets/59ed49b6-0e55-41d5-ad7e-d040a494587c" />
+<img width="1897" height="961" alt="3" src="https://github.com/user-attachments/assets/221f9107-1fd2-4959-861b-b67022ac0720" />
+
 ---
 
 ## Project Structure
